@@ -457,7 +457,7 @@
 				INFOPLIST_FILE = GKAuthorizationToolDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.studyword.author;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyword.auth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f4f311fe-510b-41c4-b0df-ae9e17ec2b6d";
 			};
@@ -472,7 +472,7 @@
 				INFOPLIST_FILE = GKAuthorizationToolDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.studyword.author;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyword.auth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f4f311fe-510b-41c4-b0df-ae9e17ec2b6d";
 			};

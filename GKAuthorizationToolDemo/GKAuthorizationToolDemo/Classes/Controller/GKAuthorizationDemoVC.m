@@ -40,6 +40,7 @@
     btn.selected = author;
 }
 
+// 改变按钮状态
 - (void)changeBtn:(UIButton *)btn status:(GKAuthorizationStatus)status
 {
     switch (status) {
@@ -69,27 +70,23 @@
         default:
             break;
     }
-    if (status == GKAuthorizationStatusAuthorized) {
-        btn.selected = YES;
-    }else{ // 拒绝访问
-        
-    }
 }
 
 /** 获取相册权限 */
 - (IBAction)getPhotoAuth:(UIButton *)sender {
+    // 检测当前应用是否获取相册权限
     BOOL photoAuth = [GKAuthorizationTool checkAuthorizationWithType:GKAuthorizationTypePhoto];
     if (photoAuth) { // 已经授权
         sender.selected = YES;
-    }else{
+    }else{ // 未授权
         sender.selected = NO;
         // 开始授权
         GKAuthorizationStatus status = [GKAuthorizationTool getPhotoAuthorizationStatus];
-        if (status == GKAuthorizationStatusNotDetermined) {
+        if (status == GKAuthorizationStatusNotDetermined) { // 未授权过
             [GKAuthorizationTool requestPhotoAuthorizationCallback:^(GKAuthorizationStatus status) {
                 [self changeBtn:sender status:status];
             }];
-        }else{
+        }else{ // 已授权过，后又关闭权限，直接跳转到系统设置中该应用的授权界面
             [self openSettingURL];
         }
     }
