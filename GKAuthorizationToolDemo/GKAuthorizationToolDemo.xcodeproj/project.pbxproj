@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6034DF411D6C6494000A7942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6034DF401D6C6494000A7942 /* main.m */; };
+		6034DF441D6C6494000A7942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6034DF431D6C6494000A7942 /* AppDelegate.m */; };
+		6034DF4A1D6C6494000A7942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6034DF481D6C6494000A7942 /* Main.storyboard */; };
+		6034DF4C1D6C6494000A7942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6034DF4B1D6C6494000A7942 /* Assets.xcassets */; };
+		6034DF4F1D6C6494000A7942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6034DF4D1D6C6494000A7942 /* LaunchScreen.storyboard */; };
+		6034DF5A1D6C6494000A7942 /* GKAuthorizationToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6034DF591D6C6494000A7942 /* GKAuthorizationToolDemoTests.m */; };
+		6034DF651D6C6494000A7942 /* GKAuthorizationToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6034DF641D6C6494000A7942 /* GKAuthorizationToolDemoUITests.m */; };
+		6034DF751D6C6536000A7942 /* GKAuthorizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6034DF741D6C6536000A7942 /* GKAuthorizationTool.m */; };
+		6034DF7B1D6C65A4000A7942 /* GKAuthorizationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6034DF7A1D6C65A4000A7942 /* GKAuthorizationDemoVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6034DF561D6C6494000A7942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6034DF341D6C6494000A7942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6034DF3B1D6C6494000A7942;
+			remoteInfo = GKAuthorizationToolDemo;
+		};
+		6034DF611D6C6494000A7942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6034DF341D6C6494000A7942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6034DF3B1D6C6494000A7942;
+			remoteInfo = GKAuthorizationToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6034DF3C1D6C6494000A7942 /* GKAuthorizationToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKAuthorizationToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6034DF401D6C6494000A7942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6034DF421D6C6494000A7942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		6034DF431D6C6494000A7942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		6034DF491D6C6494000A7942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6034DF4B1D6C6494000A7942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6034DF4E1D6C6494000A7942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6034DF501D6C6494000A7942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6034DF551D6C6494000A7942 /* GKAuthorizationToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKAuthorizationToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6034DF591D6C6494000A7942 /* GKAuthorizationToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAuthorizationToolDemoTests.m; sourceTree = "<group>"; };
+		6034DF5B1D6C6494000A7942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6034DF601D6C6494000A7942 /* GKAuthorizationToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKAuthorizationToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6034DF641D6C6494000A7942 /* GKAuthorizationToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAuthorizationToolDemoUITests.m; sourceTree = "<group>"; };
+		6034DF661D6C6494000A7942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6034DF731D6C6536000A7942 /* GKAuthorizationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKAuthorizationTool.h; sourceTree = "<group>"; };
+		6034DF741D6C6536000A7942 /* GKAuthorizationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKAuthorizationTool.m; sourceTree = "<group>"; };
+		6034DF791D6C65A4000A7942 /* GKAuthorizationDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKAuthorizationDemoVC.h; sourceTree = "<group>"; };
+		6034DF7A1D6C65A4000A7942 /* GKAuthorizationDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKAuthorizationDemoVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6034DF391D6C6494000A7942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6034DF521D6C6494000A7942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6034DF5D1D6C6494000A7942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6034DF331D6C6494000A7942 = {
+			isa = PBXGroup;
+			children = (
+				6034DF3E1D6C6494000A7942 /* GKAuthorizationToolDemo */,
+				6034DF581D6C6494000A7942 /* GKAuthorizationToolDemoTests */,
+				6034DF631D6C6494000A7942 /* GKAuthorizationToolDemoUITests */,
+				6034DF3D1D6C6494000A7942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6034DF3D1D6C6494000A7942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF3C1D6C6494000A7942 /* GKAuthorizationToolDemo.app */,
+				6034DF551D6C6494000A7942 /* GKAuthorizationToolDemoTests.xctest */,
+				6034DF601D6C6494000A7942 /* GKAuthorizationToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6034DF3E1D6C6494000A7942 /* GKAuthorizationToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF761D6C6562000A7942 /* Classes */,
+				6034DF721D6C6536000A7942 /* GKAuthorizationTool */,
+				6034DF3F1D6C6494000A7942 /* Supporting Files */,
+			);
+			path = GKAuthorizationToolDemo;
+			sourceTree = "<group>";
+		};
+		6034DF3F1D6C6494000A7942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF481D6C6494000A7942 /* Main.storyboard */,
+				6034DF4B1D6C6494000A7942 /* Assets.xcassets */,
+				6034DF4D1D6C6494000A7942 /* LaunchScreen.storyboard */,
+				6034DF501D6C6494000A7942 /* Info.plist */,
+				6034DF401D6C6494000A7942 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6034DF581D6C6494000A7942 /* GKAuthorizationToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF591D6C6494000A7942 /* GKAuthorizationToolDemoTests.m */,
+				6034DF5B1D6C6494000A7942 /* Info.plist */,
+			);
+			path = GKAuthorizationToolDemoTests;
+			sourceTree = "<group>";
+		};
+		6034DF631D6C6494000A7942 /* GKAuthorizationToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF641D6C6494000A7942 /* GKAuthorizationToolDemoUITests.m */,
+				6034DF661D6C6494000A7942 /* Info.plist */,
+			);
+			path = GKAuthorizationToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		6034DF721D6C6536000A7942 /* GKAuthorizationTool */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF731D6C6536000A7942 /* GKAuthorizationTool.h */,
+				6034DF741D6C6536000A7942 /* GKAuthorizationTool.m */,
+			);
+			path = GKAuthorizationTool;
+			sourceTree = "<group>";
+		};
+		6034DF761D6C6562000A7942 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF771D6C658B000A7942 /* Controller */,
+				6034DF781D6C658B000A7942 /* View */,
+				6034DF421D6C6494000A7942 /* AppDelegate.h */,
+				6034DF431D6C6494000A7942 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6034DF771D6C658B000A7942 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6034DF791D6C65A4000A7942 /* GKAuthorizationDemoVC.h */,
+				6034DF7A1D6C65A4000A7942 /* GKAuthorizationDemoVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6034DF781D6C658B000A7942 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6034DF3B1D6C6494000A7942 /* GKAuthorizationToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6034DF691D6C6494000A7942 /* Build configuration list for PBXNativeTarget "GKAuthorizationToolDemo" */;
+			buildPhases = (
+				6034DF381D6C6494000A7942 /* Sources */,
+				6034DF391D6C6494000A7942 /* Frameworks */,
+				6034DF3A1D6C6494000A7942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKAuthorizationToolDemo;
+			productName = GKAuthorizationToolDemo;
+			productReference = 6034DF3C1D6C6494000A7942 /* GKAuthorizationToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6034DF541D6C6494000A7942 /* GKAuthorizationToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6034DF6C1D6C6494000A7942 /* Build configuration list for PBXNativeTarget "GKAuthorizationToolDemoTests" */;
+			buildPhases = (
+				6034DF511D6C6494000A7942 /* Sources */,
+				6034DF521D6C6494000A7942 /* Frameworks */,
+				6034DF531D6C6494000A7942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6034DF571D6C6494000A7942 /* PBXTargetDependency */,
+			);
+			name = GKAuthorizationToolDemoTests;
+			productName = GKAuthorizationToolDemoTests;
+			productReference = 6034DF551D6C6494000A7942 /* GKAuthorizationToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6034DF5F1D6C6494000A7942 /* GKAuthorizationToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6034DF6F1D6C6494000A7942 /* Build configuration list for PBXNativeTarget "GKAuthorizationToolDemoUITests" */;
+			buildPhases = (
+				6034DF5C1D6C6494000A7942 /* Sources */,
+				6034DF5D1D6C6494000A7942 /* Frameworks */,
+				6034DF5E1D6C6494000A7942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6034DF621D6C6494000A7942 /* PBXTargetDependency */,
+			);
+			name = GKAuthorizationToolDemoUITests;
+			productName = GKAuthorizationToolDemoUITests;
+			productReference = 6034DF601D6C6494000A7942 /* GKAuthorizationToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6034DF341D6C6494000A7942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "高坤";
+				TargetAttributes = {
+					6034DF3B1D6C6494000A7942 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L2QPTUE76B;
+					};
+					6034DF541D6C6494000A7942 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6034DF3B1D6C6494000A7942;
+					};
+					6034DF5F1D6C6494000A7942 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6034DF3B1D6C6494000A7942;
+					};
+				};
+			};
+			buildConfigurationList = 6034DF371D6C6494000A7942 /* Build configuration list for PBXProject "GKAuthorizationToolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6034DF331D6C6494000A7942;
+			productRefGroup = 6034DF3D1D6C6494000A7942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6034DF3B1D6C6494000A7942 /* GKAuthorizationToolDemo */,
+				6034DF541D6C6494000A7942 /* GKAuthorizationToolDemoTests */,
+				6034DF5F1D6C6494000A7942 /* GKAuthorizationToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6034DF3A1D6C6494000A7942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6034DF4F1D6C6494000A7942 /* LaunchScreen.storyboard in Resources */,
+				6034DF4C1D6C6494000A7942 /* Assets.xcassets in Resources */,
+				6034DF4A1D6C6494000A7942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6034DF531D6C6494000A7942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6034DF5E1D6C6494000A7942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6034DF381D6C6494000A7942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6034DF751D6C6536000A7942 /* GKAuthorizationTool.m in Sources */,
+				6034DF441D6C6494000A7942 /* AppDelegate.m in Sources */,
+				6034DF411D6C6494000A7942 /* main.m in Sources */,
+				6034DF7B1D6C65A4000A7942 /* GKAuthorizationDemoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6034DF511D6C6494000A7942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6034DF5A1D6C6494000A7942 /* GKAuthorizationToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6034DF5C1D6C6494000A7942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6034DF651D6C6494000A7942 /* GKAuthorizationToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6034DF571D6C6494000A7942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6034DF3B1D6C6494000A7942 /* GKAuthorizationToolDemo */;
+			targetProxy = 6034DF561D6C6494000A7942 /* PBXContainerItemProxy */;
+		};
+		6034DF621D6C6494000A7942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6034DF3B1D6C6494000A7942 /* GKAuthorizationToolDemo */;
+			targetProxy = 6034DF611D6C6494000A7942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6034DF481D6C6494000A7942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6034DF491D6C6494000A7942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6034DF4D1D6C6494000A7942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6034DF4E1D6C6494000A7942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6034DF671D6C6494000A7942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6034DF681D6C6494000A7942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6034DF6A1D6C6494000A7942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaodong chen (SU7HGM4Z49)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaodong chen (SU7HGM4Z49)";
+				INFOPLIST_FILE = GKAuthorizationToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyword.author;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f4f311fe-510b-41c4-b0df-ae9e17ec2b6d";
+			};
+			name = Debug;
+		};
+		6034DF6B1D6C6494000A7942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaodong chen (SU7HGM4Z49)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xiaodong chen (SU7HGM4Z49)";
+				INFOPLIST_FILE = GKAuthorizationToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyword.author;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f4f311fe-510b-41c4-b0df-ae9e17ec2b6d";
+			};
+			name = Release;
+		};
+		6034DF6D1D6C6494000A7942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GKAuthorizationToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaokun.bykj.GKAuthorizationToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKAuthorizationToolDemo.app/GKAuthorizationToolDemo";
+			};
+			name = Debug;
+		};
+		6034DF6E1D6C6494000A7942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GKAuthorizationToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaokun.bykj.GKAuthorizationToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKAuthorizationToolDemo.app/GKAuthorizationToolDemo";
+			};
+			name = Release;
+		};
+		6034DF701D6C6494000A7942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GKAuthorizationToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaokun.bykj.GKAuthorizationToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKAuthorizationToolDemo;
+			};
+			name = Debug;
+		};
+		6034DF711D6C6494000A7942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GKAuthorizationToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaokun.bykj.GKAuthorizationToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GKAuthorizationToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6034DF371D6C6494000A7942 /* Build configuration list for PBXProject "GKAuthorizationToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6034DF671D6C6494000A7942 /* Debug */,
+				6034DF681D6C6494000A7942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6034DF691D6C6494000A7942 /* Build configuration list for PBXNativeTarget "GKAuthorizationToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6034DF6A1D6C6494000A7942 /* Debug */,
+				6034DF6B1D6C6494000A7942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6034DF6C1D6C6494000A7942 /* Build configuration list for PBXNativeTarget "GKAuthorizationToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6034DF6D1D6C6494000A7942 /* Debug */,
+				6034DF6E1D6C6494000A7942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6034DF6F1D6C6494000A7942 /* Build configuration list for PBXNativeTarget "GKAuthorizationToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6034DF701D6C6494000A7942 /* Debug */,
+				6034DF711D6C6494000A7942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6034DF341D6C6494000A7942 /* Project object */;
+}
