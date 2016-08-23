@@ -1,5 +1,6 @@
-1.使用方法，以获取系统相册权限为例
+**1.使用方法，以获取系统相册权限为例**
 
+```
 // 检测当前应用是否获取相册权限
     BOOL photoAuth = [GKAuthorizationTool checkAuthorizationWithType:GKAuthorizationTypePhoto];
     if (photoAuth) {
@@ -19,4 +20,5 @@
             [self openSettingURL];// 打开系统设置该应用授权界面
         }
     }
-2.pod：暂未支持
+```
+**2.pod：暂未支持**
