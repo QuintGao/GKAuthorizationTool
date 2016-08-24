@@ -21,4 +21,6 @@
         }
     }
 ```
-**2.pod：暂未支持**
+**2.支持CocoaPods**
+
+pod 'GKAuthorizatonTool' 
